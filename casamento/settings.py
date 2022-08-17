@@ -114,27 +114,27 @@ WSGI_APPLICATION = 'casamento.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'casamento',
-        'USER': 'postgres',
-        'PASSWORD': '@rcan0',
-        'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
-        'PORT': '5432',
-    }
-}
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'd6p2m6pep37efk',
-#         'USER': 'iywblvocofpxbc',
-#         'PASSWORD': '80b14f1d85429e57a1e32ec6a4d13b0155be93852e5cb030c548db721767d48f',
-#         'HOST': 'ec2-44-195-100-240.compute-1.amazonaws.com',  # Or an IP Address that your DB is hosted on
+#         'NAME': 'casamento',
+#         'USER': 'postgres',
+#         'PASSWORD': '@rcan0',
+#         'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
 #         'PORT': '5432',
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd6p2m6pep37efk',
+        'USER': 'iywblvocofpxbc',
+        'PASSWORD': '80b14f1d85429e57a1e32ec6a4d13b0155be93852e5cb030c548db721767d48f',
+        'HOST': 'ec2-44-195-100-240.compute-1.amazonaws.com',  # Or an IP Address that your DB is hosted on
+        'PORT': '5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
