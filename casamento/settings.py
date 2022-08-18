@@ -128,10 +128,10 @@ WSGI_APPLICATION = 'casamento.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dem92j2h54m5m1',
-        'USER': 'qtdnqewswhyhkp',
-        'PASSWORD': 'b51b82ddb043d24487622bf383dfa91c6eeba7aadd22afb7b6ce5528a018210c',
-        'HOST': 'ec2-52-207-15-147.compute-1.amazonaws.com',  # Or an IP Address that your DB is hosted on
+        'NAME': 'd565f5muumqch6',
+        'USER': 'vgmmnkcaxmxysy',
+        'PASSWORD': 'acf393283546fec211e2d5ff3125c17a151e3780fcdfd70c9df67f4865adf5a6',
+        'HOST': 'ec2-107-23-76-12.compute-1.amazonaws.com',  # Or an IP Address that your DB is hosted on
         'PORT': '5432',
     }
 }
