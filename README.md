@@ -31,3 +31,7 @@ Para realizar o deploy do servidor é necessário seguir os passos:
 ### Acessar o Swagger
 
 Para acessar o Swagger basta abrir o navegador e acessar o link: http://127.0.0.1:8000/swagger/.
+
+### Configuração Heroku para staticfiles
+
+Acessar: "Heroku > my_app > settings > config vars" e inserir a variável: DISABLE_COLLECTSTATIC=1.
