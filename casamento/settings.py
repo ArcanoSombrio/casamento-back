@@ -65,7 +65,6 @@ REST_FRAMEWORK = {
 }
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_nostatic',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
