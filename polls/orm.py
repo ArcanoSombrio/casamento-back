@@ -197,7 +197,7 @@ class ORM:
     def update_guest_accredited_with_guest_id(queryset, json_values):
         try:
             queryset.filter(id_guest_acc_ext=json_values["id_guest_acc_ext"]).update(
-                accredited=json_values["accredited"]
+                accredited=True if json_values["accredited"] == "true" else False
             )
             return JsonResponse(json_values, safe=False, status=201)
         except IntegrityError:
