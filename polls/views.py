@@ -117,6 +117,7 @@ class GuestsDataAPIView(APIView):
                     inner join tb_qrcode_guest tqg on tg.id_guest = tqg.id_guest_ext
                     inner join tb_qrcode tq on tqg.id_qrcode_ext  = tq.id_qrcode
                     inner join tb_accredited ta on ta.id_guest_acc_ext  = tg.id_guest
+                    order by "name" asc
                     """
 
                 if qrcode_content is None:
